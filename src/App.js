@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import Home from "./components/Home";
 
 function App() {
   return (
     <>
-      <h1>EpZombieFest</h1>
+      <Home />
     </>
   );
 }
