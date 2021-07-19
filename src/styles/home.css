@@ -1,17 +1,30 @@
-video {
-  object-fit: cover;
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
-  opacity: 0.7;
-}
-.viewport-header {
-  position: relative;
-  height: 100vh;
-  text-align: center;
+.home {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+.home video {
+  height: 100vh;
+}
+@media screen and (min-width: 960px) {
+  .home video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0.7;
+  }
+}
+@media screen and (min-width: 960px) {
+  .home .viewport-header {
+    position: relative;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
