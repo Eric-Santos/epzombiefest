@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/home.css";
-import bkgvideo from "../bkg-videos/zombies.webm";
+import bkgvideo from "../bkg-videos/zombiesSmall.webm";
 
 const Home = () => {
   return (
